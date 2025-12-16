@@ -36,7 +36,7 @@ RUN apt-get clean && \
     procps \
     curl \
     && rm -rf /var/lib/apt/lists/*
-RUN pip install uv
+RUN pip install --upgrade pip && pip install uv
 
 # 最终运行阶段
 FROM docker.m.daocloud.io/library/python:3.13-bookworm
@@ -54,7 +54,7 @@ RUN apt-get clean && \
     openjdk-17-jre-headless \
     netcat-openbsd \
     procps \
-    poppler \
+    poppler-utils \
     curl \
     nodejs \
     npm \
