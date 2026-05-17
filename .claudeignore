@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+ui/node_modules/
+ui/pnpm-lock.yaml
+genie-tool/.venv/
+genie-tool/genie_tool.venv/
+genie-client/.venv/
+*.venv/
+
+# Build artifacts
+genie-backend/target/
+genie-backend/*.jar
+ui/dist/
+ui/build/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs and temp files
+*.log
+logs/
+*.log.*
+
+# Database files
+*.db
+*.db-journal
+
+# Environment files (contain secrets)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# UI lock files
+ui/pnpm-lock.yaml
+ui/package-lock.json
+ui/yarn.lock
+
+# Documentation build outputs
+docs/_build/

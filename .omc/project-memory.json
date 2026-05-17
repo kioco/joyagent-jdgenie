@@ -1,0 +1,132 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1778986421626,
+  "projectRoot": "/mnt/c/Work/GitProject/joyagent-jdgenie",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 0,
+      "lastAccessed": 1778986421539,
+      "keyFiles": []
+    },
+    "genie-backend": {
+      "path": "genie-backend",
+      "purpose": null,
+      "fileCount": 5,
+      "lastAccessed": 1778986421546,
+      "keyFiles": [
+        "README.md",
+        "build.sh",
+        "pom.xml",
+        "start.sh"
+      ]
+    },
+    "genie-client": {
+      "path": "genie-client",
+      "purpose": null,
+      "fileCount": 7,
+      "lastAccessed": 1778986421553,
+      "keyFiles": [
+        "README.md",
+        "main.py",
+        "pyproject.toml",
+        "server.py",
+        "start.sh"
+      ]
+    },
+    "genie-tool": {
+      "path": "genie-tool",
+      "purpose": null,
+      "fileCount": 8,
+      "lastAccessed": 1778986421560,
+      "keyFiles": [
+        "README.md",
+        "pyproject.toml",
+        "server.py",
+        "start.sh",
+        "uv.lock"
+      ]
+    },
+    "ui": {
+      "path": "ui",
+      "purpose": null,
+      "fileCount": 12,
+      "lastAccessed": 1778986421567,
+      "keyFiles": [
+        "CONTRIBUTING.md",
+        "README.md",
+        "eslint.config.js",
+        "index.html",
+        "package.json"
+      ]
+    },
+    "genie-backend/src": {
+      "path": "genie-backend/src",
+      "purpose": "Source code",
+      "fileCount": 0,
+      "lastAccessed": 1778986421586,
+      "keyFiles": []
+    },
+    "genie-client/app": {
+      "path": "genie-client/app",
+      "purpose": "Application code",
+      "fileCount": 5,
+      "lastAccessed": 1778986421602,
+      "keyFiles": [
+        "__init__.py",
+        "client.py",
+        "config.py"
+      ]
+    },
+    "ui/node_modules": {
+      "path": "ui/node_modules",
+      "purpose": "Dependencies",
+      "fileCount": 2,
+      "lastAccessed": 1778986421617,
+      "keyFiles": []
+    },
+    "ui/public": {
+      "path": "ui/public",
+      "purpose": "Public files",
+      "fileCount": 1,
+      "lastAccessed": 1778986421626,
+      "keyFiles": [
+        "vite.svg"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
